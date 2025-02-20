@@ -126,6 +126,18 @@ h1 {
     margin: 0.67em 0;
 }
 
+h2{
+    font-size: 1.5rem;
+    margin: 0.83em 0;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 1.17rem;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
 /* Styles for the h2 & h3 tags */
 h2, h3{
     text-align: center;
@@ -195,6 +207,12 @@ fieldset{
     gap: 1rem;
     margin: 1rem 0;
     border-color: var(--red);
+    padding: 0.35em 0.75em 0.625em 0.75em;
+    border: 2px groove var(--dk-gray);
+}
+
+legend{
+    padding: 0 2px;
 }
 
 /* Code for Custom Radios - Compare to Your zyBook, I added additional code to make these match my form styles */
@@ -266,6 +284,10 @@ textarea{
     color: var(--dk-gray);
 }
 
+figure{
+    margin: 1em 40px;
+}
+
 /* Code Styles */
 code{
     font-family: var(--code-fonts);
@@ -275,6 +297,7 @@ code{
 /* for the pre block */
 pre{
     font-family: var(--code-fonts);
+    margin: 1em 0;
 }
 
 pre code{
